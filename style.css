@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+    width:100%;
+}
+.entire{
+    display: flex;
+    
+}
+.entire{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.supreme{
+    position: static;
+    margin-top: 2rem;
+    /* top: 250px;
+    left: 650px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: #232323;
+    color: orangered;
+    text-align: center;
+    transition: translate 2s ease-in infinite;
+}
+
+.d-flex{
+    width: 90vh;
+    height: 9%;
+    position:fixed;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 52px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 750px;
+}
+.d-flex button{
+    
+    background-color: orangered;
+    height: 45px;
+    width: 120px;
+    border-radius: 15px;
+    border: 3px solid orangered;
+}
+.d-flex button:hover{
+    background-color: white;
+}
+.d-flex a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+.d-flex a:hover{
+    color: orangered;
+}   
+.opener{
+    
+    flex: 1;
+    width: 100%;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    position: static;
+    height: 50%;
+    width: 35%;
+    background-color: #232323;
+   
+    /* margin-left: 60%; */
+    padding-top:40px;
+    padding-left: 35px;
+}
+section{
+    margin-bottom: 20px;
+}
+#firstone{
+    height: 260px;
+    width: 420px;
+    margin-top: 5rem;
+   transition-duration: 1.5s;
+}
+#firstone:hover{
+    transform: scale(1.2);
+    background-color: white;
+
+}
+.card-title{
+    font-size: xx-large;
+    color: orangered;
+    font-weight: 700;
+}
+.card-body{
+    font-size: x-large;
+    color: black;
+    background-color: white;
+}
+.card-header{
+    background-color: orangered;
+    color: white;
+}
+.image{
+    width: 50%;
+    margin-top: 6%;
+    margin-left: 7%;
+   object-fit: cover;
+}
+.img{
+    height: 270px;
+    width: 300px;
+    transition-duration: 1.5s;
+}
+.img:hover{
+    transform: scale(1.1);
+   
+}
+.main-title{
+    line-height: 5px;
+    font-weight:900;
+    font-size:xx-large;
+    color: orangered;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.card-header:hover{
+    background-color: white;
+    color: orangered;
+}
+.card-body:hover{
+    background-color:orangered;
+    color: white;
+}
+.card#edu{
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+}
+.card#edu:hover{
+    transform: scale(1.2);
+}
+.skills{
+    padding-top: 40px solid black;
+    height: 10rem;
+    width: 100%;
+     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    padding-bottom: 25rem;
+   
+}
+.hobbies{
+    margin-left: 40px solid black;
+}
+.skills li{
+    width: 300px;
+    background-color: #232323;
+    color: orangered;
+    justify-self: space-around;
+    font-weight: 700;
+    font-size: x-large;
+    line-height: 4rem;
+    transition-duration: 1s;
+    transition-timing-function: alternate;
+}
+.skills li:hover{
+    background-color: orangered;
+    color: white;
+    transform: translateX(25px);
+}
+.projects{
+    
+    height: 10rem;
+    width: 100vh;
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-top: 25px;
+    justify-content: space-between;
+    background-color: #121212;
+   
+}
+#project1:hover{
+    transform: scale(1.2);
+    transform: translateX(50px);
+}
+#project2:hover{
+    transform: scale(1.2);
+    transform: translateX(50px);
+}
+#project1{
+    width: 20rem;
+    margin-right: 2rem;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#project2{
+    width: 20rem;
+    margin-left: 10rem;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.projects img{
+    object-fit: cover;
+    height: 10rem;
+    width: 20rem;
+
+}
+#contact{
+    background-color: orangered;
+    color: black;
+    font-size: x-large;
+    font-weight: 400;
+    margin-top: 15rem;
+}
+.contacta{
+    display: flex;
+    align-items: center;
+
+}
+.contacta a{
+    color: #121212;
+    font-size: medium;
+}
+.mail a{
+    text-decoration: none;
+    color: #121212;
+}
+
+
+ 
